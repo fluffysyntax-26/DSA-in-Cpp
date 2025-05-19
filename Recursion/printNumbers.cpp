@@ -10,9 +10,9 @@ void printNumReverse(int n){
 }
 
 void printNum(int n){ 
-    if (n < 0){ 
-        cout << n << " "; 
+    if (n > 0){ 
         printNum(n - 1); 
+        cout << n << " "; 
     }
 }
 
