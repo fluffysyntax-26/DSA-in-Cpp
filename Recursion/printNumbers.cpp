@@ -2,6 +2,7 @@
 
 using namespace std; 
 
+// tail function
 void printNumReverse(int n){ 
     if (n > 0){ 
         cout << n << " "; 
